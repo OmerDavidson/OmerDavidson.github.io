@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- p5js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <!-- code -->
+        <script src="globalVars.js"></script>
+        <script src="automata.js"></script>
+        <script src="axiom.js"></script>
+        <script src="coloring.js"></script>
+        <script src="source.js"></script>
+        <title>Cellular Automata</title>
+    </head>
+    <body>
+        <div id = "myCanvas"></div>
+        <div class="slidecontainer">
+            stroke weight
+            <input
+                type="range"
+                min="0"
+                max="10"
+                value="2"
+                class="slider custom-range"
+                id="strokeRange"
+            />
+            <br />
+            box size
+            <input
+                type="range"
+                min="10"
+                max="90"
+                value="40"
+                class="slider custom-range"
+                id="sizeRange"
+            />
+            <br />
+        </div>
+    </body>
+</html>

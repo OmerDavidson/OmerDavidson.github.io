@@ -1,0 +1,20 @@
+/* *{
+    background: black;
+} */
+/* .btn {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #fff;
+    border:2px solid black;
+} */
+.slidecontainer{
+    width: 45%;
+    margin-left:20px;
+}
